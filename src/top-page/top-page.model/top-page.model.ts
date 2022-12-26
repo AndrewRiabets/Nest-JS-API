@@ -35,7 +35,7 @@ export class TopPageModel extends TimeStamps {
   @Prop({unique: true})
   alisas:string;
   @Prop()
-  title: string;
+  // title: string;
   @Prop()
   category: string;
   @Prop({type: () =>   HhData})
